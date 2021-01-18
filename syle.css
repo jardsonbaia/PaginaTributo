@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 800px;
+    margin: 0 auto;
+    background-color: #7a8d91;
+    color: #66777a;
+}
+
+main {
+    max-width: 900px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+#divMain {
+    max-width: inherit;
+    background-color: #f5fdff;
+    box-shadow: 5px 5px 15px #5c6a6d;
+    padding: 20px;
+    margin: 3%;
+    border-radius: 10px;
+    border-bottom: solid 10px #aec9cf;
+}
+
+#conteudoPrincipal {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+
+ #conteudoPrincipal p{
+    font-size: 0.8em;
+    width: 100px;
+    padding: 5px;
+    margin-top: 10px;
+    text-decoration: none;
+    border: solid 1px rgb(148, 148, 148);
+    border-radius: 5px;
+    color: rgb(53, 53, 53);
+    background-color: rgb(234, 255, 245);
+ }
+
+ #conteudoPrincipal p:hover {
+    transition-duration: 300ms;
+    background-color: rgb(197, 255, 226);
+    border-color: teal;
+ }
+
+#header {
+    text-align: center;
+    padding: 10px;
+    color: #7b7f91;
+    margin: 30px;
+}
+
+#img-div {
+    max-width: 100%;
+    background-color: #ebfbff;
+    border-radius: 5px;
+    box-shadow: 2px 2px 0.2em rgba(0,0,0,0.1), -2px -2px 0.2em rgba(0,0,0,0.1);
+    margin-bottom: 30px;
+    padding: 10px;
+}
+
+#image {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    max-width: inherit;
+}
+
+#img-caption {
+    text-align: center;
+    font-size: 0.9em;
+    font-style: italic;
+}
+
+#tribute-info h2{
+    padding: 20px;
+    color: #7b7f91;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+strong {
+    color: #7a8d91;
+    text-align: center;
+    display: block;
+    font-size: 16px;
+    font-style: normal;
+    margin-bottom: 5px;
+}
+
+#tribute-info ul{
+    padding: 30px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-style: italic;
+}
+
+li {
+    list-style: none;
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+    border-bottom: dotted 1.5px #aec9cf;
+}
+
+blockquote {
+    font-size: 16px;
+    font-style: italic;
+    margin-top: -40px;
+    padding: 20px;
+    text-align: center;
+    background-color: #7a8d91;
+    border-radius: 10px;
+    color: #f5fdff;
+    line-height: 1.5em;
+}
+
+blockquote cite {
+    color: rgb(163, 214, 255);
+}
+
+h3 {
+    font-size: 16px;
+    margin-top: 10px;
+    /* margin-bottom: 10px; */
+}
+
+#tribute-link {
+    text-decoration: none;
+    color: teal;
+}
+
+#tribute-link:visited {
+    color: teal;
+}
+
+#tribute-link:hover {
+    color: #7b7f91;
+}
+
+#div-dev {
+    text-align: center;
+}
+
+#link-dev {
+    color: #aec6cf;
+    font-family: cursive;
+    text-decoration: none;
+    padding: 5px;
+}
+
+#link-dev:hover {
+    color: #c8ebf3;
+    transition-duration: 300ms;
+    box-shadow: 5px 5px #657579;
+}
+

@@ -4,23 +4,23 @@
 }
 
 body {
-    width: 800px;
+    width: 100%;
+    max-width: 980px;
     margin: 0 auto;
     background-color: #7a8d91;
     color: #66777a;
+    margin-bottom: 3vh;
 }
 
 main {
-    max-width: 900px;
+    width: 100%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0px;
 }
 
-
 #divMain {
-    max-width: inherit;
     background-color: #f5fdff;
     box-shadow: 5px 5px 15px #5c6a6d;
-    padding: 20px;
     margin: 3%;
     border-radius: 10px;
     border-bottom: solid 10px #aec9cf;
@@ -53,9 +53,8 @@ main {
 
 #header {
     text-align: center;
-    padding: 10px;
+    padding-top: 50px;
     color: #7b7f91;
-    margin: 30px;
 }
 
 #img-div {
@@ -63,7 +62,7 @@ main {
     background-color: #ebfbff;
     border-radius: 5px;
     box-shadow: 2px 2px 0.2em rgba(0,0,0,0.1), -2px -2px 0.2em rgba(0,0,0,0.1);
-    margin-bottom: 30px;
+    margin: 30px;
     padding: 10px;
 }
 
@@ -112,13 +111,13 @@ li {
 blockquote {
     font-size: 16px;
     font-style: italic;
-    margin-top: -40px;
     padding: 20px;
     text-align: center;
     background-color: #7a8d91;
     border-radius: 10px;
     color: #f5fdff;
     line-height: 1.5em;
+    margin: 20px;
 }
 
 blockquote cite {
@@ -127,8 +126,8 @@ blockquote cite {
 
 h3 {
     font-size: 16px;
-    margin-top: 10px;
-    /* margin-bottom: 10px; */
+    margin: 10px;
+    padding: 10px;
 }
 
 #tribute-link {
@@ -148,15 +147,22 @@ h3 {
     text-align: center;
 }
 
-#link-dev {
+.link-dev {
     color: #aec6cf;
     font-family: cursive;
     text-decoration: none;
     padding: 5px;
+    margin-bottom: 20px;
 }
 
-#link-dev:hover {
-    color: #c8ebf3;
+.link-dev:hover {
+    color: #fbffc4;
+    transition-duration: 300ms;
+    box-shadow: 5px 5px #657579;
+}
+
+#link-insta:hover {
+    color: #ffb8f9;
     transition-duration: 300ms;
     box-shadow: 5px 5px #657579;
 }

@@ -1,0 +1,25 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-shadow: none !important;
+    background-color: white !important;
+    color: black !important;
+}
+
+@page {
+    size: A4;
+    margin-top: 10px;
+}
+
+button {
+    display: none;
+}
+
+#conteudoPrincipal{
+    display: none;
+}
+
+li {
+    margin-bottom: 10px;
+    font-size: 14px;
+}

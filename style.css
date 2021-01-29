@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    max-width: 980px;
+    margin: 0 auto;
+    background-color: #7a8d91;
+    color: #66777a;
+    margin-bottom: 3vh;
+}
+
+main {
+    width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0px;
+}
+
+#divMain {
+    background-color: #f5fdff;
+    box-shadow: 5px 5px 15px #5c6a6d;
+    margin: 3%;
+    border-radius: 10px;
+    border-bottom: solid 10px #aec9cf;
+}
+
+#conteudoPrincipal button{
+    margin-top: 15px;
+    padding: 7px;
+    background-color: transparent;
+    cursor: pointer;
+    border: solid 1px green;
+    max-width: 25%;
+ }
+
+#conteudoPrincipal button:hover {
+    transition-duration: 300ms;
+    background-color: rgb(197, 255, 226);
+    border-color: teal;
+}
+
+#header {
+    text-align: center;
+    padding-top: 50px;
+    color: #7b7f91;
+}
+
+#img-div {
+    max-width: 100%;
+    background-color: #ebfbff;
+    border-radius: 5px;
+    box-shadow: 2px 2px 0.2em rgba(0,0,0,0.1), -2px -2px 0.2em rgba(0,0,0,0.1);
+    margin: 30px;
+    padding: 10px;
+}
+
+#image {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    max-width: inherit;
+}
+
+#img-caption {
+    text-align: center;
+    font-size: 0.9em;
+    font-style: italic;
+}
+
+#tribute-info h2{
+    padding: 20px;
+    color: #7b7f91;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+strong {
+    color: #7a8d91;
+    text-align: center;
+    display: block;
+    font-size: 16px;
+    font-style: normal;
+    margin-bottom: 5px;
+}
+
+#tribute-info ul{
+    padding: 30px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-style: italic;
+}
+
+li {
+    list-style: none;
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+    border-bottom: dotted 1.5px #aec9cf;
+}
+
+blockquote {
+    font-size: 16px;
+    font-style: italic;
+    padding: 20px;
+    text-align: center;
+    background-color: #7a8d91;
+    border-radius: 10px;
+    color: #f5fdff;
+    line-height: 1.5em;
+    margin: 20px;
+}
+
+blockquote cite {
+    color: rgb(163, 214, 255);
+}
+
+h3 {
+    font-size: 16px;
+    margin: 10px;
+    padding: 10px;
+}
+
+#tribute-link {
+    text-decoration: none;
+    color: teal;
+}
+
+#tribute-link:visited {
+    color: teal;
+}
+
+#tribute-link:hover {
+    color: #7b7f91;
+}
+
+#div-dev {
+    text-align: center;
+}
+
+.link-dev {
+    color: #aec6cf;
+    font-family: cursive;
+    text-decoration: none;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+.link-dev:hover {
+    color: #fbffc4;
+    transition-duration: 300ms;
+    box-shadow: 5px 5px #657579;
+}
+
+#link-insta:hover {
+    color: #ffb8f9;
+    transition-duration: 300ms;
+    box-shadow: 5px 5px #657579;
+}
+

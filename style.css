@@ -159,32 +159,3 @@ h3 {
     transition-duration: 300ms;
     box-shadow: 5px 5px #657579;
 }
-
-.float-box{
-    position: fixed;
-    right: -17%;
-    top: 50%;
-    background-color: rgba(255, 99, 71, 0.4);
-    padding: 10px;
-    width: 20%;
-    color: transparent;
-    height: 3%;
-    transition-duration: 800ms;
-    transition-delay: 100ms;
-}
-
-.float-box:hover{
-    transition-duration: 400ms;
-    transition-delay: 100ms;
-    right: -15%;
-    background-color: rgba(255, 99, 71, 0.8);
-    color: white;
-    cursor: pointer;
-}
-
-.float-text {
-    font-size: 18px;
-    position: absolute;
-    padding-left: 15px;
-    align-items: center;
-}
